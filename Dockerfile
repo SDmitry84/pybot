@@ -7,4 +7,4 @@ FROM python:3.8.10
 RUN pip3 install pytelegrambotapi
 RUN git clone https://github.com/SDmitry84/pybot.git
 
-CMD [ "python3", "./1.py"]
+CMD ["python3", "/pybot/1.py"]

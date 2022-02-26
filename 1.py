@@ -11,5 +11,5 @@ def start(m, res=False):
 @bot.message_handler(content_types=["text"])
 def handle_text(message):
     bot.send_message(message.chat.id, 'Вы написали: ' + message.text)
-# Запускаем бота
+    # Запускаем бота
 bot.polling(none_stop=True, interval=0)
