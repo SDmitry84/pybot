@@ -2,7 +2,8 @@ import telebot
 import sys
 
 # Создаем экземпляр бота
-bot = telebot.TeleBot('5137558434:AAEwQapfTCZaY0KcJEvItrx8S3H7-V6PCNk')
+# Указываем ключ, почученный от BotFather
+bot = telebot.TeleBot('')
 # Функция, обрабатывающая команду /start
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
